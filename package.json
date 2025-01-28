@@ -11,6 +11,7 @@
     "start-emulators": "firebase emulators:start --export-on-exit firebase-backup --import firebase-backup"
   },
   "dependencies": {
+    "firebase": "^11.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
