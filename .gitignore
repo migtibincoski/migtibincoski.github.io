@@ -26,3 +26,4 @@ node_modules/
 *.log.*
 *.log-*
 *.log/*
+firebase-backup/

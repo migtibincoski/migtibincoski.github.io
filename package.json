@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start-emulators": "firebase emulators:start"
+    "start-emulators": "firebase emulators:start --export-on-exit firebase-backup --import firebase-backup"
   },
   "dependencies": {
     "react": "^18.3.1",
