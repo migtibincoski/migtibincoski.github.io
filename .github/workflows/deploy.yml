@@ -14,9 +14,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: rm yarn.lock
-      - run: rm package-lock.json
-      - run: rm node_modules
+      - run: rm -f yarn.lock
+      - run: rm -f package-lock.json
+      - run: rm -rf node_modules
       - run: npm install
       - run: npm ci
       - run: npm run build
