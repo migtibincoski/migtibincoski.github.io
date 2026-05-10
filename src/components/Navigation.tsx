@@ -70,7 +70,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 py-4 space-y-3 border-t border-border">
+          <div className="md:hidden fixed w-screen left-[0] h-full bg-[#0F1319] mt-4 py-4 space-y-3 border-t border-border">
             {navItems.map((item) => (
               <button
                 key={item.id}
