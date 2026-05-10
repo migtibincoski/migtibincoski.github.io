@@ -79,7 +79,7 @@ const Hero = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a 
-            href="mailto:tibincoskimiguel@gmail.com"
+            href="mailto:contato@migtibincoski.is-a.dev"
             className="text-muted-foreground hover:text-primary transition-colors"
             aria-label="Email"
           >

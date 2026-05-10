@@ -26,11 +26,11 @@ const Contact = () => {
                 </div>
                 
                 <a 
-                  href="mailto:tibincoskimiguel@gmail.com"
+                  href="mailto:contato@migtibincoski.is-a.dev"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Mail className="h-5 w-5 text-primary" />
-                  <span>tibincoskimiguel@gmail.com</span>
+                  <span>contato@migtibincoski.is-a.dev</span>
                 </a>
               </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                   className="w-full justify-start bg-gradient-primary hover:shadow-glow transition-all duration-300"
                   asChild
                 >
-                  <a href="mailto:tibincoskimiguel@gmail.com">
+                  <a href="mailto:contato@migtibincoski.is-a.dev">
                     <Mail className="mr-2 h-5 w-5" />
                     Enviar Email
                   </a>
