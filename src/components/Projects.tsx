@@ -19,17 +19,33 @@ const Projects = () => {
       highlight: true,
     },
     {
+      title: "WhatsApp Business API - Maria Farinha Pizzaria Artesanal",
+      description:
+        "Integração personalizada da API do WhatsApp Business para a Maria Farinha Pizzaria Artesanal, permitindo comunicação eficiente e automatizada com os clientes, melhorando o atendimento e impulsionando as vendas.",
+      tech: [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "API REST",
+        "WhatsApp Business API",
+        "Webhooks",
+        "YCloud",
+      ],
+    },
+    {
+      title: "Linktree - Thais Abrantes",
+      description:
+        "Linktree personalizado para Thais Abrantes, apresentando seus projetos, redes sociais e portfólio de forma elegante e funcional, facilitando o acesso a todas as suas plataformas em um único lugar.",
+      tech: ["React", "TailwindCSS"],
+      link: "https://bio.thaisabrantes.com.br/",
+      github:
+        "https://github.com/Miguel-Tibincoski-Public-Websites/thais-abrantes-linktree",
+    },
+    {
       title: "VouMorar",
       description:
         "SaaS imobiliário moderno voltado para otimizar gestão de imóveis, locações e anúncios. Proposta escalável que une tecnologia web e experiência do usuário de forma harmônica.",
       tech: ["React", "Node.js", "TailwindCSS"],
-      highlight: false,
-    },
-    {
-      title: "Projetos em Desenvolvimento",
-      description:
-        "Explorando constantemente novas ferramentas e linguagens, construindo soluções que conectam criatividade e código limpo.",
-      highlight: false,
     },
   ];
 
