@@ -6,7 +6,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 
-const Index = () => {
+export default function Index() {
   return (
     <div className="min-h-screen bg-background font-display">
       <Navigation />
@@ -18,6 +18,4 @@ const Index = () => {
       <Contact />
     </div>
   );
-};
-
-export default Index;
+}

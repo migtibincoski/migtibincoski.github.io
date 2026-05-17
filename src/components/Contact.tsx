@@ -25,7 +25,7 @@ const Contact = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="h-5 w-5 text-primary" />
-                  <span>Criciúma, SC - Brasil</span>
+                  <span>Rua Manoel Vargas, 628 - Pedreiras, Balneário Rincão/SC - 88836-000</span>
                 </div>
 
                 <a
