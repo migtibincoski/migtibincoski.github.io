@@ -64,11 +64,6 @@ if (redirect && String(redirect).trim() !== "") {
     );
   }
 } else if (copyText && String(copyText).trim() !== "") {
-  navigator.clipboard.writeText(copyText).then(() => {
-    alert("Text copiado com sucesso!");
-    window.history.back();
-  });
-
   createRoot(document.getElementById("root")!).render(
     <div className="h-screen w-screen flex flex-col gap-2.5 justify-center items-center">
       <h1 className="max-w-md text-center">Copie o texto abaixo:</h1>
