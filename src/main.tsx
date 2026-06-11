@@ -8,13 +8,12 @@ import { Textarea } from "./components/ui/textarea.tsx";
 const url = new URL(window.location.href);
 const redirect = url.searchParams.get("auto-redirect-to");
 const copyText = url.searchParams.get("copy-text");
-console.debug(url, redirect, copyText);
 
 if (redirect && String(redirect).trim() !== "") {
   const urls = {
     homepage: "https://migtibincoski.is-a.dev/",
-    call: "tel:+5548999999999",
-    mail: "mailto:contact@migtibincoski.is-a.dev",
+    call: "tel:+5548988477249",
+    mail: "mailto:contato@migtibincoski.is-a.dev",
   } as const;
 
   const urlToRedirect = urls[redirect as keyof typeof urls];
